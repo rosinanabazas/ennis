@@ -1,0 +1,98 @@
+@import "bootstrap.min.css";
+@import "carousel.css";
+
+body {
+	background-color: black;
+}
+p, a, li {
+	color: black;
+}
+p {
+	width: 70%;
+    margin-left: 5em;  
+}
+h2.featurette-heading {
+	font-size: 3em;
+    margin-left: 1.55em; 
+}
+a:hover {
+	color: gray;
+}
+.navbar-header {
+    height: 190px;
+}
+.collapse nav bar { 
+    width: 70%;
+}
+.navbar-header img {
+    margin-top: 1.4em;
+    margin-left: 6em;
+}
+.nav.navbar-nav a{
+	color: white;
+	margin-right: 1.5em;
+}
+.nav.navbar-nav a:hover{
+	color: black;
+}
+#main-nav {
+    float:right;
+    margin-top:2em;
+}
+.featurette-heading {
+	color: black;
+}
+.header-container  {
+  width: 70%;
+  margin-top:3.5em;
+}
+.networks {
+  	display: inline-block;
+    float: right;
+ }
+.networks li {
+  	display: inline-block;
+
+}
+.networks li a {
+  	background-image: url("../img/sprite.png"); 
+  	height: 24px;
+  	width: 23px;
+  	display: inline-block;
+}
+.facebook a {
+  	background-position: 0 0; 
+}
+.facebook a:hover {
+  	background-position: 22px 72px; 
+}  
+.twitter a { 
+  	background-position: 0 47px; 
+}
+.twitter a:hover { 
+  	background-position: 22px 48px; 
+}
+.foursquare a { 
+  	background-position: 0 95px; 
+}
+.foursquare a:hover { 
+  	background-position: 22px 24px; 
+}
+.networks span {
+  	display: none;
+}
+.contact {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.container.marketing {
+	background-color: white;
+	width: 70%;
+}
+img.featurette-image.img-responsive {
+    margin: 3em -2em;
+}
+img.featurette-image2 {
+    margin: 3em 2.3em;
+}
