@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 
     <title>Ennis Tradición Irlandesa</title>
 
@@ -23,30 +24,14 @@
           <ul class="nav navbar-nav" id="main-nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">Sobre Nosotros</a></li>
+              <li><a href="#menu">Menú</a></li>
               <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
             
-        <div class="collapse navbar-collapse">
-          <ul class="networks">
-          <li class="facebook">
-            <a href="https://www.facebook.com/ennis.tradicionirlandesa?fref=ts&ref=br_tf"></a>
-            <span>Facebook</span>
-          </li>
-          <li class="twitter">
-            <a href="https://twitter.com/ennispub"></a>
-            <span>Twitter</span>
-          </li>
-          <li class="foursquare">
-            <a href="https://foursquare.com/v/ennis-irish-pub/4fbb7549e4b007859e1a9c14"></a>
-            <span>Foursquare</span>
-          </li>
-        </ul>
-
-        </div><!--/.nav-collapse -->
+        <!--/.nav-collapse -->
       </div>
     
-
 
     <!-- Carousel
     ================================================== -->
@@ -65,7 +50,7 @@
               <div class="carousel-text">
                 <h1>Cervezas artesanales</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar vestibulum massa, lobortis egestas justo egestas accumsan. Proin rhoncus elit venenatis fringilla congue.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar vestibulum massa, lobortis.
                 </p>
               </div>    
             </div>
@@ -103,7 +88,7 @@
     <div class="container marketing">
       <!-- START THE FEATURETTES -->
 
-      <div class="row featurette">
+      <div id="about" class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">Sobre Nosotros</h2>
           <p>
@@ -113,59 +98,90 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar vestibulum massa, lobortis egestas justo egestas accumsan. Proin rhoncus elit venenatis fringilla congue.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar vestibulum massa, lobortis egestas justo egestas accumsan. Proin rhoncus elit venenatis fringilla congue.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar vestibulum massa, lobortis egestas justo egestas accumsan
           </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/img-about.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <div class="row featurette" id="menu">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Nuestro Menú</h2>
+          <h3>Cervezas uruguayas artesanales</h3>
+          <p>
+            Davok, Mastra, Cabesas Bier, Chela Brandon.
+          </p>
+          <h3>Cervezas internacionales</h3>
+          <p>
+            Fuller's London Pride, Schofferhofer, Grolsch, Becks, Dab, Leffe, Franziskaner.
+          </p>
+          <h3>Comidas</h3>
+          <p>
+            Pizzetas (muzzarella, olivas, capresse), empanadas (carne y jamón y queso), arrolladitos primavera, fritas, fish and chips, provolone. 
+          </p>
+          <h3>Tragos</h3>
+          <p>
+            Irish Car Bomb, dikiri (futilla, durazno, maracuyá), mojito. 
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/img-menu.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <div class="row featurette" id="contact">
+        <div class="col-md-7">
+          <h2 class="featurette-heading" >Contacto</h2>
+          <ul class="contact">
+              <li>General Urquiza 2551 Montevideo - Uruguay</li>
+              <li>2486 4447</li>
+              <li><a href="mailto:ennis@gmail.com">ennis@gmail.com</a></li>
+          </ul> 
+          <div id="map"></div>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="img/bar1.jpg" alt="Generic placeholder image">
         </div>
       </div>
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image2" src="img/bar2.jpg" alt="Ennis Tradición Irlandesa">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Nuestro Menú</h2>
-          <ul>
-            <li>Cervezas Davok</li>
-            <li>Mastra</li>
-            <li>Cabesas Bier</li>
-            <li>Chela Brandon</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Contacto</h2>
-          <ul class="contact">
-            <li>Dirección: General Urquiza 2551 esq. Presidente Batlle</li>
-            <li>Teléfono: 2486 4447 </li>
-          </ul>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/bar3.jpg" alt="Ennis Tradición Irlandesa">
-        </div>
-      </div>
+      
 
       <!-- /END THE FEATURETTES -->
-
+      
+      </div><!-- /.container -->
 
       <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Volver arriba</a></p>
-        <p>&copy; 2014 Ennis Tradición Irlandesa.</p>
-        
 
-    </div><!-- /.container -->
+      <footer>
+        <p>&copy; 2014 Ennis Tradición Irlandesa.</p>
+        <ul class="networks">
+            <li class="mail">
+              <a href="mailto:"></a>
+              <span>Mail</span>
+            </li>
+            <li class="facebook">
+              <a href="https://www.facebook.com/ennis.tradicionirlandesa?fref=ts&ref=br_tf"></a>
+              <span>Facebook</span>
+            </li>
+            <li class="twitter">
+              <a href="https://twitter.com/ennispub"></a>
+              <span>Twitter</span>
+            </li>
+          </ul>  
+      </footer>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+    </script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="../../assets/js/docs.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false" type="text/javascript"></script>
+    <script src="js/javascript.js" type="text/javascript"></script>
+    <script src="js/smoothscroll.js" type="text/javascript"></script>
+
   </body>
 </html>
