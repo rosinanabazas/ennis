@@ -17,6 +17,7 @@ h2.featurette-heading,
 h3 {
 	font-size: 3em;
   margin-left: 1.55em;
+  margin-top: 2em;
   font-family: 'Fjalla One', sans-serif; 
 }
 h3 {
@@ -70,35 +71,6 @@ a:hover {
   width: 70%;
   margin: 3.5em auto;
 }
-.networks {
-  float: right;
-}
-.networks li {
-  display: inline-block;
-  margin: 0.3em;
-}
-.networks li {
-  background-image: url("../img/sprite.png"); 
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  opacity: 1;
-}
-.networks li:hover {
-  opacity: 0.8;
-}
-.mail { 
-  background-position: 0 0;  
-} 
-.facebook { 
-  background-position: 0 -80px; 
-} 
-.twitter { 
-  background-position: 0 -160px;  
-} 
-.networks span {
-  display: none;
-}
 .contact {
 	list-style: none;
 	margin-left: 4.8em;
@@ -121,13 +93,50 @@ img.featurette-image2 {
   width: 50%;
 }
 #map {
-  width: 300px;
-  height: 300px;
+  margin-left: 4.6em;
+  margin-top: 2.5em;
+  width: 400px;
+  height: 415px;
 }
 .contact li {
   line-height: 2em;
 }
 /*footer*/
+
+.networks {
+  float: right;
+}
+.networks li {
+  display: inline-block;
+  margin: 0.3em;
+}
+.networks li {
+  background-image: url("../img/sprite.png"); 
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  opacity: 1;
+}
+.networks a{
+  height: 40px;
+  width: 40px;
+}
+.networks li:hover {
+  opacity: 0.8;
+}
+.mail { 
+  background-position: 0 0;  
+} 
+.facebook { 
+  background-position: 0 -80px; 
+} 
+.twitter { 
+  background-position: 0 -160px;  
+} 
+.networks span {
+  display: none;
+}
+
 footer {
   width: 70%;
   margin: 0 auto;
