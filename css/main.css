@@ -117,15 +117,16 @@ img.featurette-image2 {
   margin: 0.3em;
 }
 .networks li {
-  background-image: url("../img/sprite.png"); 
   height: 40px;
   width: 40px;
   display: inline-block;
   opacity: 1;
 }
 .networks a{
+  background-image: url("../img/sprite.png");
   height: 40px;
   width: 40px;
+  display: block;
 }
 .networks li:hover {
   opacity: 0.8;
